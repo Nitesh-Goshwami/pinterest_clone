@@ -1,8 +1,10 @@
 import { Route, Switch } from "react-router-dom";
+import { Navbar } from "../Components/Navbar";
 
 export function RouteMain() {
   return (
     <div>
+      <Route><Navbar/></Route>
       <Switch>
         <Route path="/" exact>
           1
