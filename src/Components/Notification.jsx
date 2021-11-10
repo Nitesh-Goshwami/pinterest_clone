@@ -1,6 +1,9 @@
+import styles from "./Notification.module.css"
+
+
 const Notification = () => {
     return (<>
-    <div style = {{height:"500px", width:"500px",border:"1px solid red"}}>
+    <div className = {styles.notification_dropdown}>
         <div>Afghjk</div>
         <div>Afghjk</div>
         <div>Afghjk</div>

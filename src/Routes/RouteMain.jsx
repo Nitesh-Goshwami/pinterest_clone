@@ -3,7 +3,7 @@ import { Navbar } from "../Components/Navbar";
 
 export function RouteMain() {
   return (
-    <div>
+    <div >
       <Route><Navbar/></Route>
       <Switch>
         <Route path="/" exact>
