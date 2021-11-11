@@ -3,7 +3,7 @@ import styles from './about.module.css'
 
 const Footer = () => {
     return (
-        <div className ={styles.mainFooterDiv}>
+        <div className={styles.mainFooterDiv}>
             <div>
                 <div className={styles.logoDiv}>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pinterest_Logo.svg/2560px-Pinterest_Logo.svg.png" alt="logo" />
@@ -24,7 +24,7 @@ const Footer = () => {
                     </select>
                 </div>
                 <div className={styles.copyright}>
-                    <p>@ Pinterest 2021</p>
+                    <p>© Pinterest 2021</p>
                 </div>
             </div>
 
