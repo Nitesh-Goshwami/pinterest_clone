@@ -7,7 +7,7 @@ export function RouteMain() {
       <Route><Navbar/></Route>
       <Switch>
         <Route path="/" exact>
-          1
+          Its Home Page
         </Route>
         <Route path="/about">2</Route>
         <Route path="/home-signed">3</Route>

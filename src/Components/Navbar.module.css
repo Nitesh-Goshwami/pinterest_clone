@@ -6,7 +6,7 @@
     color:white ;
     height: 80px;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     margin-top:0;
     box-sizing: border-box;
@@ -15,14 +15,12 @@
 }
 
 
-
 .navlink{
-    /* margin-top: 15px; */
     text-decoration: none;
     color: black;
     font-weight: bold;
-    
 }
+
 .navlinkItem:hover{
     box-shadow: rgba(219, 223, 223, 0.5) 0px 0px 0px 2px;
     background-color: rgba(219, 223, 223, 0.5);
@@ -42,6 +40,7 @@
 
 
 .search{
+    display: flex;
     min-width: 407px;
     width: 1100px;
     height: 48px;
@@ -52,7 +51,6 @@
     font-size: 16px;
     font-weight: normal;
     margin-top: 0;
-    margin-left: 20px;
     outline: none;
     z-index: 500;
 }
@@ -94,38 +92,37 @@
 .notificationDiv, .chatDiv, .logoDiv,.profileDiv {
     width: 35px ;
     height: 35px;
-    margin-left: 10px;
-    /* margin-right: 5px; */
+    margin-left: 5px;
     border-radius: 100%;
     text-align: center;
     justify-content: center;
     padding: 5px;
     
 }
+
 .userDiv {
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
     text-align: center;
-    justify-content: center;
+    align-items: center;
     padding: 5px;
 }
+.user {
+    width: 15px;
+    height: 15px;
+    /* margin-bottom: 10px; */
+}
 
-.notificationDiv:hover,.chatDiv:hover,.logoDiv:hover, .profileDiv:hover{
+.notificationDiv:hover,.chatDiv:hover,.logoDiv:hover, .profileDiv:hover, .userDiv:hover{
     background-color: rgb(238, 235, 235);
     cursor: pointer;
 }
 
 
-
-.notificationImage, .chatImage , .logo,.profileImage {
+.notificationImage, .chatImage , .logo, .profileImage {
 width: 25px;
 height: 25px;
 margin: 5px;
-
 }
-.user {
-    width: 15px;
-    height: 15px;
-    margin-top: 10px;
-    }
+
