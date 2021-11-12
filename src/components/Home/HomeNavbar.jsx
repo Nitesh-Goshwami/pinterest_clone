@@ -14,21 +14,21 @@ function HomeNavbar() {
       </div>
       <div className="navbar-left-section">
         <div className="links">
-          <Link>
+          <Link to="/about">
             <h4>About</h4>
           </Link>
-          <Link>
+          <Link to="/buisness">
             <h4>Buisness</h4>
           </Link>
-          <Link>
+          <Link to="/press">
             <h4>Press</h4>
           </Link>
         </div>
         <div className="links-buttons">
-          <Link>
+          <Link to="/login">
             <button className="login-btn">Log in</button>
           </Link>
-          <Link>
+          <Link to="/signup">
             <button className="signup-btn">Sign up</button>
           </Link>
         </div>

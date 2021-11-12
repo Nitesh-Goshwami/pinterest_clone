@@ -1,4 +1,5 @@
 import { Route, Switch } from "react-router-dom";
+import Home from "../components/Home/Home";
 import HomeNavbar from "../components/Home/HomeNavbar";
 
 export function RouteMain() {
@@ -7,6 +8,7 @@ export function RouteMain() {
       <Switch>
         <Route path="/" exact>
           <HomeNavbar/>
+          <Home/>
         </Route>
         <Route path="/about">2</Route>
         <Route path="/home-signed">3</Route>
