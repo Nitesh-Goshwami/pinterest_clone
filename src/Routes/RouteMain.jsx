@@ -8,6 +8,9 @@ export function RouteMain() {
         <Route path="/" exact>
           <Hmain />
         </Route>
+        <Route path="/pin/:id" exact>
+          <Hmain />
+        </Route>
         <Route path="/about">2</Route>
         <Route path="/home-signed">3</Route>
         <Route path="/today">4</Route>

@@ -6,7 +6,7 @@ export function Hmain() {
   return (
     <div>
       <div className="navSigned"></div>
-      <div style={{ padding: "0px 16px 0px 16px" }}>
+      <div className="mediaAlign">
         <div className="signedHome">
           {dataImg.map((el) => {
             return <ImgBox item={el} />;
