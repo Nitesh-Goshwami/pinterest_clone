@@ -1,11 +1,12 @@
 import { Route, Switch } from "react-router-dom";
+import { Hmain } from "../Components/Home_Signed/Hmain";
 
 export function RouteMain() {
   return (
     <div>
       <Switch>
         <Route path="/" exact>
-          1
+          <Hmain />
         </Route>
         <Route path="/about">2</Route>
         <Route path="/home-signed">3</Route>
