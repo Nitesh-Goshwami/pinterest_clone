@@ -7,12 +7,12 @@ import { Navbar } from "../Navbar";
 
 export function Hmain() {
   const [dataMain, setDataMain] = useState([]);
+  const [query, setQuery] = useState("random");
   useEffect(() => {
     handleClick();
   });
 
   const handleClick = async () => {
-    let query = "batman";
     try {
       const res = await axios.get(
         `https://serpapi.com/search.json?q=${query}&tbm=isch&ijn=0&api_key=245412060f4a55df27892b9102e8e22a0b042cebd18e1904404305481174e467`
@@ -30,7 +30,7 @@ export function Hmain() {
   return (
     <div>
       <div className="navSigned">
-        <Navbar />
+        <Navbar setQuery={setQuery} handleClick={handleClick} />
       </div>
       <div className="mediaAlign">
         <div className="signedHome">
