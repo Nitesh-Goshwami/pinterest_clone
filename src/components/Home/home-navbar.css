@@ -34,12 +34,14 @@
 .links h4{
     margin: 20px 15px;
 }
-.links-buttons *{
+.links-buttons button{
     border: none;
     border-radius: 15px;
     font-size: 15px;
     padding: 9px 10px;
     font-weight: 700;
+    margin: 9px 10px;
+    
 }
 .login-btn{
     background-color: #E60023;

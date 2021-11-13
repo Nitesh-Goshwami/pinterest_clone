@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home-navbar.css";
 import { Link } from "react-router-dom";
+import Signup from "./Signup";
+import Login from "./Login";
 function HomeNavbar() {
+  const [signup,setSignup]=useState(false)
+  const [login,setLogin]=useState(false)
+  const handleLogin=()=>{
+    setLogin(false)
+  }
+  const handleSignup=()=>{
+    setSignup(false)
+  }
   return (
+    <div> 
     <div className="home-navbar">
       <div className="logo-div">
         <div className="logo">
@@ -25,14 +36,17 @@ function HomeNavbar() {
           </Link>
         </div>
         <div className="links-buttons">
-          <Link to="/login">
-            <button className="login-btn">Log in</button>
-          </Link>
-          <Link to="/signup">
-            <button className="signup-btn">Sign up</button>
-          </Link>
+          
+            <button onClick={()=>{setLogin(true)}} className="login-btn">Log in</button>
+          
+         
+            <button onClick={()=>{setSignup(true)}} className="signup-btn">Sign up</button>
+         
         </div>
       </div>
+    </div>
+    <div>{signup?<Signup signup={signup} handleSignup={handleSignup}/>:""}</div>
+    <div>{login?<Login login={login} handleLogin={handleLogin}/>:""}</div>
     </div>
   );
 }
