@@ -3,6 +3,7 @@ import "./Hmain.css";
 import { ImgBox } from "./ImgBox";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Navbar } from "../Navbar";
 
 export function Hmain() {
   const [dataMain, setDataMain] = useState([]);
@@ -28,7 +29,9 @@ export function Hmain() {
 
   return (
     <div>
-      <div className="navSigned"></div>
+      <div className="navSigned">
+        <Navbar />
+      </div>
       <div className="mediaAlign">
         <div className="signedHome">
           {dataMain.slice(0, 24).map((el) => {
