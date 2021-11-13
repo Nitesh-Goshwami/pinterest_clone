@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./home.css";
 function Home() {
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
   const [state, setState] = useState(1);
   useEffect(() => {
     let x = setInterval(() => {
@@ -987,37 +987,7 @@ function Home() {
           </div>
         )}
       </div>
-      <div className={modal ? "modal-bg bg-active" : "modal-bg"}>
-        <div className="modal">
-          <img src="HomePage/logo.png" alt="" />
-          <h2 className="line-height">Welcome to Pintrest</h2>
-          <p className="line-height">Find new ideas to try</p>
-          <div className="input-tags">
-            <input type="text" name="email" placeholder="Email address" />
-            <br />
-            <input
-              type="password"
-              name="password"
-              placeholder="Create a password"
-            />
-            <br />
-            <input type="Number" name="age" placeholder="Age" />
-            <br />
-          </div>
-
-          <button style={{background:'#D50C22'}}  className="sign-btn">Continue</button>
-          <p>or</p>
-          <button style={{background:'#1877F2'}} className="sign-btn">Continue with Facebook</button>
-          <span
-            onClick={() => {
-              setModal(false);
-            }}
-            className="close-modal"
-          >
-            X
-          </span>
-        </div>
-      </div>
+     
     </div>
   );
 }
