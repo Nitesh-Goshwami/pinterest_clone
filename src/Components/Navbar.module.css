@@ -1,0 +1,128 @@
+.mainDiv {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+    color:white ;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    margin-top:0;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navlinkItem:hover{
+    box-shadow: rgba(219, 223, 223, 0.5) 0px 0px 0px 2px;
+    background-color: rgba(219, 223, 223, 0.5);
+}
+
+.navlinkItem {
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 24px;
+    width: 48px;
+    min-width: 60px;
+    margin-right: 5px;
+}
+
+
+
+.search{
+    display: flex;
+    min-width: 407px;
+    width: 1100px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: rgb(238, 235, 235);
+    border: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    outline: none;
+    z-index: 500;
+}
+.searchIcon {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.inputBox{
+    min-width: 407px;
+    width: 1100px;
+    height: 46px;
+    border-radius: 24px;
+    background-color:transparent;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    outline: none;
+    text-indent: 10px;
+}
+.inputBox:focus {
+    box-shadow: rgba(0, 132, 255, 0.5) 0px 0px 0px 4px;
+    margin-left: 0px;
+}
+.inputBox:hover {
+    background-color: #E1E1E1;
+}
+.search:hover{
+    background-color: #E1E1E1;
+}
+.search:focus{
+    box-shadow: rgba(0, 132, 255, 0.5) 0px 0px 0px 4px;
+}
+
+.notificationDiv, .chatDiv, .logoDiv,.profileDiv {
+    width: 35px ;
+    height: 35px;
+    margin-left: 5px;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.userDiv {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+.user {
+    width: 15px;
+    height: 15px;
+    /* margin-bottom: 10px; */
+}
+
+.notificationDiv:hover,.chatDiv:hover,.logoDiv:hover, .profileDiv:hover, .userDiv:hover{
+    background-color: rgb(238, 235, 235);
+    cursor: pointer;
+}
+
+
+.notificationImage, .chatImage , .logo, .profileImage {
+width: 25px;
+height: 25px;
+margin: 5px;
+}
+
