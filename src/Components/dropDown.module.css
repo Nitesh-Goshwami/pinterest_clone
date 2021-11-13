@@ -1,4 +1,4 @@
-h1,
+.marginNav *h1,
 h2,
 h3,
 h4,
@@ -83,6 +83,16 @@ div {
 }
 small {
   margin: 10px 10px;
+}
+
+.profName {
+  font-weight: 700;
+}
+
+.profName + div,
+.profName + div + div {
+  color: gray;
+  font-size: 14px;
 }
 
 /* End User Drop Down */

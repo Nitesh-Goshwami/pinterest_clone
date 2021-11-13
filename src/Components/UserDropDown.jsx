@@ -18,14 +18,14 @@ const UserDropDown = () => {
           <div>
             <img
               className={styles.profile}
-              src="https://cdn-user-icons.flaticon.com/57417/57417507/1636545930691.svg?token=exp=1636546831~hmac=86d5319287a0e25debd9b852d38528a4"
+              src="https://i.pinimg.com/75x75_RS/2e/c8/07/2ec807727afae4e4fe1e0f88cf976128.jpg"
               alt=""
             />
           </div>
           <div>
-            <h4>Name</h4>
+            <div className={styles.profName}>Edward</div>
             <div>Personal/Business</div>
-            <div>xyzabc@gmail.com</div>
+            <div>albartbtme@gmail.com</div>
           </div>
         </div>
         <small>Your Accounts</small>

@@ -3,6 +3,7 @@ import { AuthContext } from "../Contexts/AuthContext";
 import { useContext } from "react";
 
 import { Hmain } from "../components/Home_Signed/Hmain";
+import { SavedProfile } from "../components/Home_Signed/Saved";
 import Today from "../components/Today";
 
 // import { Navbar } from "../Components/Navbar";
@@ -34,6 +35,9 @@ export function RouteMain() {
         </Route>
         <Route path="/today">
           <Today />
+        </Route>
+        <Route path="/saved">
+          <SavedProfile />
         </Route>
         <Route>
           <h1 style={{ textAlign: "center" }}>404 Not Found</h1>

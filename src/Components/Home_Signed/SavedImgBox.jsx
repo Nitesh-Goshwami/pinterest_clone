@@ -1,20 +1,9 @@
 import { useState } from "react";
 import "./Hmain.css";
-import { SaveContext } from "../../Contexts/SaveContext";
-import { useContext } from "react";
-// import { dataImg } from "./DataImg";
 
-export function ImgBox({ item }) {
-  const { saveImgData, setSaveImgData } = useContext(SaveContext);
+export function SavedImgBox({ item }) {
   const [saveState, setSaveState] = useState(false);
-  const [save, setSave] = useState(false);
 
-  const saveDataArr = () => {
-    if (!save) {
-      setSave(true);
-      setSaveImgData([...saveImgData, item]);
-    }
-  };
   return (
     <div
       onMouseEnter={() => {
@@ -28,14 +17,6 @@ export function ImgBox({ item }) {
         <img alt="Hi" src={item.original} />
         {saveState && (
           <>
-            <div
-              onClick={() => {
-                saveDataArr();
-              }}
-              className="save"
-            >
-              {!save ? <>Save</> : <>Saved</>}
-            </div>
             <div className="bottomTags">
               <a href={item.link} rel="noreferrer" target="_blank">
                 <div className="tagSite">{item.source?.slice(0, 10)}...</div>

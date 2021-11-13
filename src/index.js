@@ -5,12 +5,15 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Author } from "./Contexts/AuthContext";
+import { Saved } from "./Contexts/SaveContext";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Author>
-        <App />
+        <Saved>
+          <App />
+        </Saved>
       </Author>
     </BrowserRouter>
   </React.StrictMode>,
