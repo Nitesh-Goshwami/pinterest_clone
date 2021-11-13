@@ -15,7 +15,7 @@ export function ImgBox({ item }) {
       }}
     >
       <div>
-        <img alt="Hi" src={item.poster} />
+        <img alt="Hi" src={item.original} />
         {saveState && (
           <>
             <div
@@ -27,10 +27,8 @@ export function ImgBox({ item }) {
               {!save ? <>Save</> : <>Saved</>}
             </div>
             <div className="bottomTags">
-              <a href={item.site} rel="noreferrer" target="_blank">
-                <div className="tagSite">
-                  {item.site.split(".")[1].slice(0, 10)}...
-                </div>
+              <a href={item.link} rel="noreferrer" target="_blank">
+                <div className="tagSite">{item.source?.slice(0, 10)}...</div>
               </a>
 
               <div className="tagPin"></div>
@@ -40,7 +38,7 @@ export function ImgBox({ item }) {
         )}
       </div>
 
-      <div className="imgTitle">{item.title}</div>
+      <div className="imgTitle">{item.title?.slice(0, 20)}...</div>
     </div>
   );
 }
