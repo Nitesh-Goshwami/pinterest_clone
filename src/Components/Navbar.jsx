@@ -4,8 +4,10 @@ import { ChatDropDown } from "./ChatDropDown";
 import styles from "./Navbar.module.css";
 import { Notification } from "./Notification";
 import { UserDropDown } from "./UserDropDown";
+import { useHistory } from "react-router-dom";
 
 const Navbar = ({ setQuery, handleClick }) => {
+  const history = useHistory();
   const [search, setSearch] = useState("");
   const Links = [
     {
@@ -48,10 +50,19 @@ const Navbar = ({ setQuery, handleClick }) => {
     handleClick();
   };
 
+  const handleHome = () => {
+    history.push("/");
+  };
+
   return (
     <>
       <div className={styles.mainDiv}>
-        <div className={styles.logoDiv}>
+        <div
+          onClick={() => {
+            handleHome();
+          }}
+          className={styles.logoDiv}
+        >
           <img
             className={styles.logo}
             src="https://cdn-icons-png.flaticon.com/128/220/220214.png"

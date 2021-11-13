@@ -1,4 +1,6 @@
 import { Route, Switch } from "react-router-dom";
+import { AuthContext } from "../Contexts/AuthContext";
+import { useContext } from "react";
 
 import { Hmain } from "../components/Home_Signed/Hmain";
 import Today from "../components/Today";
@@ -10,12 +12,19 @@ import HomeNavbar from "../components/Home/HomeNavbar";
 import About from "../About/About";
 
 export function RouteMain() {
+  const { isAuth } = useContext(AuthContext);
   return (
     <div>
       <Switch>
         <Route path="/" exact>
-          <HomeNavbar />
-          <Home />
+          {!isAuth ? (
+            <>
+              <HomeNavbar />
+              <Home />
+            </>
+          ) : (
+            <Hmain />
+          )}
         </Route>
         <Route path="/about">
           <About />

@@ -13,7 +13,6 @@
 .signedHome {
   width: 100%;
   /* height: 1000px; */
-  background-color: honeydew;
   display: grid;
   grid-template-columns: repeat(6, 236px);
   grid-gap: 16px;

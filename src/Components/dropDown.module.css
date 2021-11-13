@@ -1,82 +1,88 @@
-
-
-h1,h2,h3,h4,h5,h6,div {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  margin: 0;
 }
-
 
 /* Start Notofication Drop Down */
 
-.notification_dropdown, .chat_dropdown{
-    flex-direction: column;
-    height: 620px;
-    width: 360px;
-    box-shadow: rgb(0 0 0 / 10%) -3px 4px 14px 0px;
-    overscroll-behavior: none;
-    top: -30px;
-    transition: top 100ms linear 0s;
-    border-radius: 16px;
-    justify-content: right;
-    text-align: left;
-    right: 25px;
-    position: absolute;
-    z-index: 50;
+.notification_dropdown,
+.chat_dropdown {
+  flex-direction: column;
+  height: 620px;
+  width: 360px;
+  box-shadow: rgb(0 0 0 / 10%) -3px 4px 14px 0px;
+  overscroll-behavior: none;
+  top: -30px;
+  transition: top 100ms linear 0s;
+  border-radius: 16px;
+  justify-content: right;
+  text-align: left;
+  right: 25px;
+  position: absolute;
+  z-index: 50;
+  background-color: white;
 }
 
 .updates {
-    margin-top: 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.feedLines{
-    margin: 15px;
+.feedLines {
+  margin: 15px;
 }
 
 /* End Notification Drop Down */
 
 /* Start User Drop Down */
 
-.user_dropdown{
-    flex-direction: column;
-    height: 450px;
-    width: 300px;
-    box-shadow: rgb(0 0 0 / 10%) -3px 4px 14px 0px;
-    overscroll-behavior: none;
-    top: -30px;
-    transition: top 100ms linear 0s;
-    border-radius: 16px;
-    justify-content: right;
-    text-align: left;
-    right: 25px;
-    position: absolute;
-    z-index: 50;
+.user_dropdown {
+  flex-direction: column;
+  height: 450px;
+  width: 300px;
+  box-shadow: rgb(0 0 0 / 10%) -3px 4px 14px 0px;
+  overscroll-behavior: none;
+  top: -30px;
+  transition: top 100ms linear 0s;
+  border-radius: 16px;
+  justify-content: right;
+  text-align: left;
+  right: 25px;
+  position: absolute;
+  z-index: 200;
+  background-color: white;
 }
 
-.userDetails{
-    display: flex;
-    width: 100%;
-    height: 70px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+.userDetails {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .profile {
-    width: 60px ;
-    height: 60px;
-    margin-left: 5px;
-    border-radius: 100%;
-    text-align: center;
-    justify-content: center;
-    padding: 5px;
-    margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+  border-radius: 100%;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  margin-right: 10px;
 }
 
 .othercontent {
-    margin: 10px 10px;
+  margin: 10px 10px;
 }
 small {
-    margin: 10px 10px;
+  margin: 10px 10px;
 }
 
 /* End User Drop Down */

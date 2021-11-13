@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./home.css";
 function Home() {
-  const [modal, setModal] = useState(false);
+  //const [modal, setModal] = useState(false);
   const [state, setState] = useState(1);
   useEffect(() => {
     let x = setInterval(() => {
@@ -987,7 +987,6 @@ function Home() {
           </div>
         )}
       </div>
-     
     </div>
   );
 }
