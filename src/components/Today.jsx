@@ -34,7 +34,7 @@ function Today() {
 
       <div className="lower_info_bh">
         <img
-          src="https://cdn-icons.flaticon.com/png/512/1008/premium/1008958.png?token=exp=1636486324~hmac=b56c533190a8fd1fa91ce59f2acf7b83"
+          src="https://cdn-icons-png.flaticon.com/512/711/711239.png"
           alt="loading"
         />
         <p>That's all for today!</p>
