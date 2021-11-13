@@ -1,0 +1,99 @@
+.dots-div {
+    display: flex;
+    margin: auto;
+    width: 100px;    
+}
+
+.dots-div div{
+    margin: 8px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+.heading-div{
+    padding-top: 35px;
+}
+.big-heading{
+    margin: auto;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 70px;
+    width: fit-content;
+}
+.get{
+    text-align: center;
+    width: 700px;
+}
+.one-col{
+    display: flex;
+    flex-direction: column;
+}
+.image-div{
+    margin: 10px;
+    height: 330px;
+    width: 170px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+}
+.image-div img{
+    width: 160%;
+    height: 100%;
+    
+}
+.image-container{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    
+    margin: auto ;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+.first{
+
+}
+.second{
+    margin-top:100px ;
+}
+.third{
+    margin-top: 190px;
+}
+.four{
+    margin-top: 350px;
+}
+
+.modal img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+.modal h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.modal p{
+font-size: 14px;
+}
+.input-tags{
+    margin: 30px 0px 10px;
+}
+.input-tags input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: thin;
+}
+.input-tags input::placeholder{
+    padding-left: 10px;
+}
+.sign-btn{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
