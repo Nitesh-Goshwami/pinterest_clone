@@ -1,0 +1,44 @@
+.card_bh {
+  z-index: 0;
+  width: 27rem;
+  height: 20rem;
+}
+
+.card_bh img {
+  width: 27rem;
+  height: 20rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  object-fit: cover;
+ 
+ 
+}
+.card_text_bh {
+  margin-top: -9rem;
+  z-index: 1;
+  width: 22rem;
+  font-size:.8rem;
+  margin-left:2rem;
+  color:white;
+  /* margin:auto; */    
+}
+.card_text_bh h1 {
+  margin-top: -1rem;
+}
+
+
+@media(max-width:998px){
+    .card_bh img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .card_text_bh{
+        margin-top: -5rem;
+        width: 16rem;
+        font-size:.6rem;
+        margin-left:6rem;
+
+    }
+}
+
+

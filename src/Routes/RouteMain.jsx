@@ -1,4 +1,5 @@
 import { Route, Switch } from "react-router-dom";
+import Today from "../components/Today"
 
 // import { Navbar } from "../Components/Navbar";
 
@@ -19,7 +20,7 @@ export function RouteMain() {
         </Route>
         <Route path="/about">2</Route>
         <Route path="/home-signed">3</Route>
-        <Route path="/today">4</Route>
+        <Route path="/today"><Today/></Route>
         <Route>
           <h1 style={{ textAlign: "center" }}>404 Not Found</h1>
         </Route>
