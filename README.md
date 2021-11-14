@@ -68,3 +68,102 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# Pinterest-clone
+we have cloned the Pinterest  https://in.pinterest.com/ . We have used MERN Stack for this project.
+</br>
+Website : https://pinterest-clone-indol.vercel.app/
+</br>
+---
+### Tech stacks used :
+MERN stands for : M - MongoDB, E - Express, R - React, N - Node.js
+
+To create this clone following Tech stack is used by contributors.
+
+*  **React**
+*  **Node.js** 
+*  **JSX** 
+*  **CSS** 
+*  **React Router Dom** 
+*  **Fontawesome** 
+*  **material-ui/core** 
+*  **reduxjs/toolkit** 
+*  **axios** 
+*  **material-ui** 
+*  **react-dom** 
+*  **react-router-dom** 
+*  **react-scripts** 
+*  **styled-components** 
+*  **timeago.js** 
+*  **socket.io** 
+*  **socket.io-client** 
+*  **emoji-mart** 
+*  **dotenv** 
+*  **bcryptjs** 
+*  **cors** 
+*  **jsonwebtoken** 
+
+<hr/>
+
+## Sneak Peak
+#### Login Page:
+<img width="600px" src="https://i.imgur.com/8oWSCMM.png"/>
+
+#### Landing Page:
+<img width="600px" src="https://i.imgur.com/fCzEgw7.png"/>
+
+#### Upload Page:
+<img width="600px" src="https://i.imgur.com/l111CAG.png"/>
+
+#### Profile Page:
+<img width="600px" src="https://i.imgur.com/9MlDSsi.png"/>
+
+#### Tag Page:
+<img width="600px" src="https://i.imgur.com/cqIyXOx.png"/>
+
+#### Inbox Page:
+<img width="600px" src="https://i.imgur.com/VHkVAtK.png"/>
+
+<hr/>
+
+### Installation and Setup Instructions
+Clone down this repository using this <a href="https://github.com/AlbartJose/pinterest_clone">link</a>
+
+You will need node and npm installed globally on your machine. 
+
+Inside Client, Server & Socket install with npm
+
+
+```bash
+  npm install
+```
+
+To Run Test Suite: npm test To Start Server: npm start
+
+To Visit App: localhost:3000/
+
+<hr/>
+
+## Team Members and Contributors
+
+### Akif Patel
+- **Github** : akifpatel8
+- **Github Link** : https://github.com/akifpatel8
+
+### Albart Jose
+- **Github** : AlbartJose
+- **Github Link** : https://github.com/khushbookhator
+
+### Ankit Kumar
+- **Github** : ankitkumar404
+- **Github Link** : https://github.com/ankitkumar404
+
+### Bhaskar Rai
+- **Github** : bhaskar0507
+- **Github Link** : https://github.com/bhaskar0507
+
+### Robin Singh
+- **Github** : Nitesh-Goshwami
+- **Github Link** : goswami.nitesh5794@gmail.com
