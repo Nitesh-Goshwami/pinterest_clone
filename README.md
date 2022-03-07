@@ -92,6 +92,6 @@ To Visit App: localhost:3000/
 - **Github** : bhaskar0507
 - **Github Link** : https://github.com/bhaskar0507
 
-### Robin Singh
+### Nitesh Goshwami
 - **Github** : Nitesh-Goshwami
 - **Github Link** : goswami.nitesh5794@gmail.com
